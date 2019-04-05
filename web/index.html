@@ -6,14 +6,16 @@
         <link rel="stylesheet" type="text/css" href="style.css">
         <link rel="stylesheet" type="text/css" href="normalize.css">
         <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Hind+Siliguri" rel="stylesheet"> 
+        <link rel="stylesheet" href="animate.css">
         <!-- ionic font -->
         <link rel="stylesheet" type="text/css" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
         <title>home</title>
     </head>
-    <body>
+    <body >
     	<!-- header -->
     		<header>
-    			<h1 class="name">Ndeme yvan</h1>
+                   
+    			<h1 class="name animated bounceInRight" >Ndeme yvan</h1>
     			<nav class="navigation">
     				<ul>
     					<li><a href="#">Acceuil</a></li>
@@ -34,7 +36,7 @@
     	<!-- fin intro -->
     	<!-- a propos de moi  -->
     	<section class="about_me">
-            <h1 class="title_section">A propos de moi</h1>
+            <h1 class="title_section animated bounceInUp">A propos de moi</h1>
     		<h4>j'ai 24 ans , et je suis developpeur Android et web .</h4>
     		<div class="cont_wrap">
     			<div class="content_image">
@@ -67,7 +69,7 @@
     	<!-- mes experiences  -->
     	<section class="mon_parcour">
             <div class="cont_wrap">
-                <h1 class="title_section">Mon parcour</h1>
+                <h1 class="title_section animated bounceInUp">Mon parcour</h1>
                 <hr>
             </div>
     		
@@ -167,7 +169,10 @@
                    </p>
                    <h5>Copyright 2019 by Devbee</h5>
     			</div>
-    		</footer>
+            </footer>
+            <script src="js/wow.min.js"></script>
+              <script>
+              new WOW().init();
+              </script>
     </body>
-    
 </html>
